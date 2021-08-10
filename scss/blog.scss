@@ -1,0 +1,46 @@
+
+.blog {
+
+
+    &__main-title{
+        margin-bottom: 50px;
+    }
+
+    &__title {
+        font-size: 30px;
+        font-weight: 500;
+        line-height:44 / 30 * 100% ;
+        margin-bottom: 50px;
+        color: inherit;
+        transition: color .3s ease 0s;
+        @media(min-width: $md2+px){
+           &:hover{
+               color:#ff6464;
+           }
+        }
+    }
+
+    &__items {
+        color: rgb(7, 5, 5);
+    }
+
+    &__item {
+    }
+
+    &__info {
+        display: flex;
+        font-size: 20px;
+        
+        span{
+            margin: 0 15px;
+        }
+    }
+
+    &__categoty {
+        color: #8695A4;
+        
+    }
+
+    &__text {
+    }
+}
